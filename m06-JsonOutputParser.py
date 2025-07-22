@@ -1,9 +1,7 @@
 from langchain_openai import ChatOpenAI
-from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
-from langchain.output_parsers import StructuredOutputParser, ResponseSchema, PydanticOutputParser
+from langchain_core.output_parsers import JsonOutputParser
 from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field
 load_dotenv()
 
 model = ChatOpenAI(model = 'gpt-4o-mini')
