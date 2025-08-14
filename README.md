@@ -2,14 +2,14 @@
 This repo uses OpenAI as its LLM of choice. Please [generate an API key](https://platform.openai.com/) before trying the code for yourself.
 
 ## Repo Structure
-| Module    | What You’ll Master                                          |
+| Module    | Content                                                     |
 | --------- | ----------------------------------------------------------- |
 | `m01.*`   | Talking to LLMs & Chat Models like a pro                    |
 | `m02–m04` | Prompt Templates, Messages, Dynamic Placeholders            |
 | `m05–m06` | Output Parsing — Strings, JSON, Pydantic Models             |
 | `m07`     | Chain Types: Sequential, Conditional, Parallel              |
 | `m08–m12` | Document Loaders, Text Splitters, Vector Stores, Retrievers |
-| `m13–m14` | Tool Use & **Agent Workflows**                                  |
+| `m13–m14` | Tool Use & **Agent Workflows**                              |
 | `p01`     | Similarity Search for documents                             |
 | `p02`     | **Retrieval-Augmented Generation (RAG)** — the power move   |
 
