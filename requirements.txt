@@ -1,9 +1,12 @@
 langchain
 langchain_openai
 langchain_community
+langchain-tavily
 langchain_chroma
 chromadb
 dotenv
 numpy
 scikit-learn
 wikipedia
+youtube-transcript-api
+duckduckgo-search
